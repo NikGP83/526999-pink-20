@@ -5,35 +5,62 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pink</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body class="page__body">
-  <header class="page__header">
+  <header class="page-header">
     <nav class="main-nav">
       <div class="main-nav__wrapper">
         <a href="index.html" class="main-nav__logo main-nav__logo__mobile">
-          <img src="#" alt="Pink">
+          <img src="../img/logo-pink-white-mobile.svg" alt="Pink" width="74" height="23">
         </a>
-        <button class="main-nav__toggle">
+        <button class="main-nav__toggle button">
           <span class="visually-hidden">Открыть меню</span>
         </button>
         <ul class="main-nav__list site-list">
           <li class="site-list__item">
-            <a href="index.html">Главная</a>
+            <a class="site-list__link" href="index.html">Главная</a>
           </li>
           <li class="site-list__item">
-            <a href="photo.html">Фотографии</a>
+            <a class="site-list__link" href="photo.html">Фотографии</a>
           </li>
           <li class="site-list__item">
-            <a href="form.html">Конкурс</a>
+            <a class="site-list__link" href="form.html">Конкурс</a>
           </li>
           <li class="site-list__item">
-            <a href="https://htmlacademy.ru">Html Academy</a>
+            <a class="site-list__link" href="https://htmlacademy.ru">Html Academy</a>
           </li>
         </ul>
       </div>
     </nav>
-    <h2 class="page__header-title">Конкурс на самое безбашенное путешествие с Пинк</h2>
+    <div class="page-header__wrapper">
+      <h2 class="page-header__title">Взгляните на жизнь иначе!</h2>
+      <div class="page-header__mobile-market-wrapper">
+        <a href="https://www.apple.com/ru/ios/app-store/" class="page-header__app-download button button--one">Скачать приложение</a>
+      <ul class="page-header__market-list app-list">
+        <li class="app__list-item">
+          <a class="app-list__link" href="https://www.apple.com/ru/ios/app-store/">
+            <span class="visually-hidden">App-store</span>
+          </a>
+        </li>
+        <li class="app__list-item">
+          <a class="app-list__link" href="https://play.google.com/store?hl=ru">
+            <span class="visually-hidden">Google play</span>
+          </a>
+        </li>
+        <li class="app__list-item">
+          <a class="app-list__link" href="https://www.microsoft.com/ru-RU/store/apps">
+            <span class="visually-hidden">Microsoft store</span>
+          </a>
+        </li>
+      </ul>
+      <p class="page-header__app-info">
+        Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8
+      </p>
+      </div>
+    </div>
   </header>
 
   <main class="page-main">
