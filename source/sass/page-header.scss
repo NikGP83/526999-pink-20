@@ -11,6 +11,17 @@
     color: $basic-white;
   }
 
+  &__mobile-market-wrapper {
+    background: $dark-blue-header;
+  }
+
+
+  &__wrapper {
+    background: url("../img/iphone-hand-mobile@1x.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+  }
+
   &__app-info {
     color: $basic-white;
   }
