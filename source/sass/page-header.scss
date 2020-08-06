@@ -11,6 +11,7 @@
     color: $basic-white;
   }
 
+
   &__mobile-market-wrapper {
     background: $dark-blue-header;
   }
@@ -22,7 +23,15 @@
     background-position: 0 0;
   }
 
+
   &__app-info {
+    color: $basic-white;
+  }
+
+  &__lead-paragraph {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 120%;
     color: $basic-white;
   }
 }
