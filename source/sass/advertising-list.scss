@@ -1,0 +1,18 @@
+.advertising-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  &__item-title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: $basic-black;
+    text-align: center;
+  }
+
+  &__text {
+    text-align: center;
+  }
+}
