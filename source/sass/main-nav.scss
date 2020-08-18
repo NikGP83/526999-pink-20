@@ -1,3 +1,25 @@
 .main-nav {
-  background-color: $special-black;
+  background-color: $basic-gray;
+
+  @media (min-width: $desktop-width) {
+    background-color: $special-black;
+  }
+
+  &__logo {
+    height: 23px;
+
+    @media (min-width: $tablet-width) {
+      width: 145px;
+      height: 40px;
+    }
+
+    @media (min-width: $desktop-width) {
+      width: 147px;
+      height: 40px;
+    }
+  }
+
+  &__toggle {
+    display: none;
+  }
 }

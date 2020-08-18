@@ -5,5 +5,16 @@
     line-height: 120%;
     text-align: center;
     color: $basic-gray;
+
+    @media (min-width: $tablet-width) {
+      margin: 0;
+    }
+  }
+
+  &__title:nth-child(2) {
+    @media (min-width: $tablet-width) {
+      width: 280px;
+      margin: 0 auto;
+    }
   }
 }

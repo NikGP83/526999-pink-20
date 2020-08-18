@@ -3,6 +3,25 @@
   padding: 0;
   list-style: none;
 
+  @media (min-width: $desktop-width) {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__item {
+    text-align: center;
+    border-top: 1px solid $item-border-gray;
+    border-bottom: 1px solid $basic-black;
+
+    @media (min-width: $desktop-width) {
+      border: none;
+    }
+  }
+
+  &__item:first-child {
+    border-top: none;
+  }
+
   &__link {
     font-weight: 700;
     font-size: 18px;
