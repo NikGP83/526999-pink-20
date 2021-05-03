@@ -28,6 +28,7 @@
   &__wrapper {
     background: url("../img/iphone-hand-mobile@1x.png") no-repeat 25px 65px,
       url("../img/bg-back-mobile@1x.jpg") no-repeat 0 0;
+    background-size: contain;
 
     @media (min-width: $tablet-width) {
       background: url("../img/iphone-hand-tablet@1x.png") no-repeat 0 0,
@@ -39,14 +40,20 @@
     }
   }
 
-
   &__app-info {
     color: $basic-white;
   }
 
   &__paragraph {
-    min-width: 320px;
+    width: 280px;
+    height: 47px;
+    text-align: center;
+    margin: 0 auto;
     margin-bottom: 320px;
+
+    @media (min-width: $tablet-width) {
+      text-align: left;
+    }
   }
 
   &__lead-paragraph {
